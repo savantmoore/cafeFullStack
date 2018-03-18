@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cafe App</title>
+</head>
+<body>
+  <h1>Drink Up Cafe</h1>
+  <h2>Instructions:....</h2>
+
+
+
+  <h3>Hot</h3>
+  <ul>
+    <li>Machiatto</li>
+    <li>Americano</li>
+    <li>Expresso</li>
+    <li>Double Expresso</li>
+    <li>Cappucino</li>
+    <li>Café Latte</li>
+
+  </ul>
+
+  <h3>Cold</h3>
+  <ul>
+    <li>Iced Coffee</li>
+    <li>Iced Americano</li>
+    <li>Cold Brew</li>
+  </ul>
+
+<h4>*Place Your Order*</h4>
+  <form action="/orders" method= "POST">
+  <fieldset>
+    <legend>Coffee - Small / Medium / Large</legend>
+    <label for="">Size </label>
+    <input name="size" class="small" type="radio">
+    <input name="size" class="med" type="radio">
+    <input name="size" class="lg" type="radio">
+
+    <label for="cream">Cream</label>
+    <input id="cream" name="cream" class="oneCream" type="radio">
+    <label for="milk">Milk</label>
+    <input id="milk" name="cream" class="twoCream" type="radio">
+    <label for="sugar">Sugar</label>
+    <input id="sugar" name="sugar" class="oneSugar" type="radio">
+
+  </fieldset>
+  <input type="text" name="name" value="" placeholder="Enter Name">
+  <input type="text" name="order" value="" placeholder="Enter Coffee Order">
+  <button type="submit" name="button">Submit Order</button>
+</form>
+
+</body>
+</html>
