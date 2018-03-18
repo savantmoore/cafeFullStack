@@ -1,4 +1,4 @@
-![FULL STACK..:Jessie Reyez~Fan Page](public/jessrey.jpg)
+
 
 ## Installation
 
@@ -6,7 +6,7 @@
 2. run `npm install`
 
 ## Usage
-![Screen Shot](public/fanpagess.png)
+
 1. run `npm run gatekeeper`
 2. Navigate to `localhost:5000`
 
